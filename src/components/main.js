@@ -3,12 +3,11 @@ import Tile from './tile';
 import yannis_barba from '../assets/yannis_barba.png';
 
 
-function Body(){
+function Main(){
     return (
-        <div className="body">
+        <div className="main">
             <Tile srcImg={yannis_barba} nomImg ="Yannis" nomGame="Yannis" descriptionGame="c'est moi" />
         </div>
     );
 }
-
-export default Body; 
+export default Main; 
