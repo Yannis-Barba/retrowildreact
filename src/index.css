@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 10px; 
+}
+
+.lienPage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  transition: color 0.8s ease 0s;
+  color: #2a7b9b;
+  font-family: "Gameplay";
+  font-size: 20px;
+  font-weight: 100;
+  text-decoration: none;
+  padding-bottom: 24px;
+}
+
+.lienPage:hover{
+  color: #eddd53;
+}
