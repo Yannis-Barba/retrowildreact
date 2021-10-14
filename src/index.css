@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* FOOTER */
+.footer {
+  display: flex;
+  background-color: #b3aeae;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding-top: 8px;
+  padding: 0 20px;
+  width: 100%;
+  height: 48px;
+  border-radius: 5px 5px 0 0;
+  bottom: 48px;
+  color: black;
+}
+
+.footer p {
+  font-family: Gameplay;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.Git-Hub-Logo {
+  padding-top: 7px;
+  height: 30px;
+  width: 30px;
+}
+
+.Linkedin-Logo {
+  padding-top: 7px;
+  height: 30px;
+  width: 30px;
+}
