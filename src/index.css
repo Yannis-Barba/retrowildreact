@@ -1,5 +1,13 @@
+#root{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 body {
-  margin: 0;
+  flex-grow: 1;
+  margin: auto;
+  padding: auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,6 +19,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
 
 .navBar{
   display: flex;
@@ -36,4 +46,38 @@ code {
 
 .lienPage:hover{
   color: #eddd53;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  background-color: #b3aeae;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding-top: 8px;
+  padding: 0 20px;
+  width: 100%;
+  height: 48px;
+  border-radius: 5px 5px 0 0;
+  bottom: 48px;
+  color: black;
+}
+
+.footer p {
+  font-family: Gameplay;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.Git-Hub-Logo {
+  padding-top: 7px;
+  height: 30px;
+  width: 30px;
+}
+
+.Linkedin-Logo {
+  padding-top: 7px;
+  height: 30px;
+  width: 30px;
 }
